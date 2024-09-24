@@ -1,0 +1,28 @@
+{
+  "name": "Esp32EncryptedOta",
+  "version": "1.0.0",
+  "description": "Provides ota updates using aes encryption",
+  "keywords": "esp32, ota, encrypted",
+  "repository":
+  {
+    "type": "git",
+    "url": "https://github.com/Fischer-Simon/Esp32EncryptedOta"
+  },
+  "authors":
+  [
+    {
+      "name": "Fischer-Simon"
+    }
+  ],
+  "dependencies": {
+    "WiFi": "~2",
+    "Update": "~2"
+  },
+  "license": "MIT",
+  "homepage": "https://github.com/Fischer-Simon/Esp32EncryptedOta",
+  "frameworks": "arduino",
+  "platforms": "espressif32",
+  "includes": [
+    "EncryptedOta.h"
+  ]
+}
